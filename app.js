@@ -27,7 +27,7 @@ const searchIcon = document
 //getting data from the api
 function getWeather(city) {
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&id=524901&appid=${api.key}`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&id=524901&appid=${api.key}`
   )
     .then((data) => {
       return data.json();
@@ -72,5 +72,5 @@ function displayWeather(data) {
 
   //displays and updates the icon based on the weather description
   let icon = document.querySelector('.icon');
-  icon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+  icon.src = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
 }
