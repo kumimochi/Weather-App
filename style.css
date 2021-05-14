@@ -16,7 +16,7 @@ body {
   padding: 10px 0;
   justify-content: center;
   align-items: center;
-  background-image: url('/1c3a8d6748acd610a741f4e9d4a567a9.jpg');
+  background-image: url('https://i.pinimg.com/originals/49/8b/d7/498bd7b4b9f9a64cd4f9b9f40cc2ee00.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
@@ -62,7 +62,7 @@ input {
   width: 220px;
   margin: 2rem auto;
   padding: 2rem 2rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
   display: flex;
   justify-content: center;
