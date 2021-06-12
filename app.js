@@ -45,8 +45,8 @@ function displayWeather(data) {
   let country = document.querySelector('#country');
   country.innerText = `${data.sys.country}`;
 
-  let location = document.querySelector("#city #country");
-  location.innerText = `${data.name}, ${data.sys.country}`;
+  // let location = document.querySelector("#city #country");
+  // location.innerText = `${data.name}, ${data.sys.country}`;
 
   //displays the current temperature
   let temp = document.querySelector('#current-temp');
