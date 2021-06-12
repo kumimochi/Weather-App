@@ -40,7 +40,7 @@ function displayWeather(data) {
 
   //displays city and country
   let city = document.querySelector('#city');
-  city.innerText = `${data.name},`;
+  city.innerText = `${data.name}`,;
 
   let country = document.querySelector('#country');
   country.innerText = `${data.sys.country}`;
